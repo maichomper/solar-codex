@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import ThemeRegistry from '@/components/ThemeRegistry';
 import Header from '@/components/Header';
 import SkipLinks from '@/components/common/SkipLinks';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { generateOrganizationSchema, generateWebSiteSchema } from '@/utils/schema';
 import './globals.css';
 
@@ -70,6 +71,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <GoogleAnalytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
