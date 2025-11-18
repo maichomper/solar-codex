@@ -50,6 +50,7 @@ export default function WhySolarCodex() {
                 alt="The Problem - Lost in the noise, building without direction"
                 width={400}
                 height={250}
+                sizes="(max-width: 900px) 100vw, 400px"
                 style={{ maxWidth: '100%', height: 'auto' }}
               />
             </Box>
@@ -115,6 +116,7 @@ export default function WhySolarCodex() {
                 alt="The Solution - Clear path with strategic direction"
                 width={400}
                 height={250}
+                sizes="(max-width: 900px) 100vw, 400px"
                 style={{ maxWidth: '100%', height: 'auto' }}
               />
             </Box>
