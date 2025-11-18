@@ -100,7 +100,7 @@ export default function HowWeWork() {
 
         {/* The SolarCodex Method */}
         <Box sx={{ mb: 8 }}>
-          <Typography variant="h3" sx={{ mb: 4, textAlign: 'center', fontWeight: 700 }}>
+          <Typography variant="h3" sx={{ mb: 4, textAlign: 'center', fontWeight: 700, fontFamily: (theme) => theme.custom.fonts.handwriting }}>
             The SolarCodex Method
           </Typography>
 
@@ -197,7 +197,7 @@ export default function HowWeWork() {
 
         {/* Our Toolkit */}
         <Box sx={{ mb: 8 }}>
-          <Typography variant="h3" sx={{ mb: 4, textAlign: 'center', fontWeight: 700 }}>
+          <Typography variant="h3" sx={{ mb: 4, textAlign: 'center', fontWeight: 700, fontFamily: (theme) => theme.custom.fonts.handwriting }}>
             Our Toolkit
           </Typography>
           <Typography variant="body1" sx={{ mb: 4, textAlign: 'center', color: 'text.secondary' }}>
@@ -247,7 +247,7 @@ export default function HowWeWork() {
 
         {/* What Makes Us Different */}
         <Box sx={{ mb: 8 }}>
-          <Typography variant="h3" sx={{ mb: 4, textAlign: 'center', fontWeight: 700 }}>
+          <Typography variant="h3" sx={{ mb: 4, textAlign: 'center', fontWeight: 700, fontFamily: (theme) => theme.custom.fonts.handwriting }}>
             What Makes Us Different
           </Typography>
 
@@ -312,7 +312,7 @@ export default function HowWeWork() {
             boxShadow: 2,
           }}
         >
-          <Typography variant="h4" sx={{ mb: 3, textAlign: 'center', fontWeight: 700 }}>
+          <Typography variant="h4" sx={{ mb: 3, textAlign: 'center', fontWeight: 700, fontFamily: (theme) => theme.custom.fonts.handwriting }}>
             How We Collaborate
           </Typography>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>

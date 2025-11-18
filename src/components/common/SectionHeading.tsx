@@ -28,6 +28,7 @@ export default function SectionHeading({ children, subtitle, centered = false }:
         component="h2"
         sx={{
           mb: subtitle ? 2 : 0,
+          fontFamily: (theme) => theme.custom.fonts.handwriting,
         }}
       >
         {children}

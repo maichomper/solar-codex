@@ -49,6 +49,7 @@ export default function Hero() {
                 fontWeight: 800,
                 mb: 0,
                 fontSize: (theme) => theme.custom.hero.headlineFontSize,
+                fontFamily: "'Micho Handwriting', cursive !important",
               }}
             >
               Turn your vision into reality.{' '}
@@ -65,7 +66,6 @@ export default function Hero() {
                   sx={{
                     color: 'secondary.main',
                     position: 'relative',
-                    fontFamily: (theme) => theme.custom.fonts.handwriting,
                     '&::after': {
                       content: '""',
                       position: 'absolute',

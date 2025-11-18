@@ -238,7 +238,7 @@ export default function CaseStudies() {
               >
                 {/* Content Column */}
                 <Box sx={{ flex: { xs: '1 1 100%', md: '0 0 55%' } }}>
-                  <Typography variant="h4" sx={{ mb: 2, fontWeight: 700, fontSize: { xs: '1.5rem', md: '1.75rem' } }}>
+                  <Typography variant="h4" sx={{ mb: 2, fontWeight: 700, fontSize: { xs: '1.5rem', md: '1.75rem' }, fontFamily: (theme) => theme.custom.fonts.handwriting }}>
                     {study.icon} {study.title}
                   </Typography>
 

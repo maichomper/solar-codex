@@ -62,6 +62,7 @@ export default function WhySolarCodex() {
                 mb: 2,
                 fontWeight: 700,
                 fontSize: { xs: '1.75rem', md: '2rem' },
+                fontFamily: (theme) => theme.custom.fonts.handwriting,
               }}
             >
               THE PROBLEM
@@ -128,6 +129,7 @@ export default function WhySolarCodex() {
                 mb: 2,
                 fontWeight: 700,
                 fontSize: { xs: '1.75rem', md: '2rem' },
+                fontFamily: (theme) => theme.custom.fonts.handwriting,
               }}
             >
               THE SOLUTION
@@ -176,6 +178,7 @@ export default function WhySolarCodex() {
               fontWeight: 700,
               textAlign: 'center',
               fontSize: { xs: '1.75rem', md: '2rem' },
+              fontFamily: (theme) => theme.custom.fonts.handwriting,
             }}
           >
             The Difference in Action
@@ -208,7 +211,7 @@ export default function WhySolarCodex() {
                     textAlign: 'center',
                   }}
                 >
-                  Status Quo
+                  Other Agencies
                 </Typography>
 
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>

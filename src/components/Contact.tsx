@@ -117,6 +117,7 @@ export default function Contact() {
                 mb: 3,
                 fontWeight: 800,
                 color: 'white',
+                fontFamily: (theme) => theme.custom.fonts.handwriting,
               }}
             >
               Let's Build Something Together

@@ -4,8 +4,13 @@
   margin: 0;
 }
 
-:root {
-  --font-micho-handwriting: var(--font-micho-handwriting);
+@font-face {
+  font-family: 'Micho Handwriting';
+  src: url('/fonts/Michohandwriting-Regular.otf') format('opentype'),
+       url('/fonts/Michohandwriting-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 html {

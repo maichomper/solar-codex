@@ -281,7 +281,7 @@ export default function CaseStudyPageClient() {
               boxShadow: 6,
             }}
           >
-            <Typography variant="h3" sx={{ mb: 3, fontWeight: 700, fontSize: { xs: '1.5rem', md: '2rem' } }}>
+            <Typography variant="h3" sx={{ mb: 3, fontWeight: 700, fontSize: { xs: '1.5rem', md: '2rem' }, fontFamily: (theme) => theme.custom.fonts.handwriting }}>
               🏥 {caseStudy.title}
             </Typography>
 
@@ -348,6 +348,7 @@ export default function CaseStudyPageClient() {
             mb: 6,
             textAlign: 'center',
             fontWeight: 700,
+            fontFamily: (theme) => theme.custom.fonts.handwriting,
           }}
         >
           Project Journey
@@ -754,7 +755,7 @@ export default function CaseStudyPageClient() {
             textAlign: 'center',
           }}
         >
-          <Typography variant="h3" component="h2" sx={{ mb: 4, fontWeight: 700 }}>
+          <Typography variant="h3" component="h2" sx={{ mb: 4, fontWeight: 700, fontFamily: (theme) => theme.custom.fonts.handwriting }}>
             {caseStudy.impact.title}
           </Typography>
 

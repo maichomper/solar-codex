@@ -128,11 +128,11 @@ const theme = createTheme({
       },
     },
     h2: {
-      fontSize: '2.5rem',
+      fontSize: '3rem',
       fontWeight: 700,
       lineHeight: 1.3,
       '@media (max-width:768px)': {
-        fontSize: '1.75rem',
+        fontSize: '2.25rem',
       },
     },
     h3: {
@@ -158,7 +158,7 @@ const theme = createTheme({
   },
   custom: {
     hero: {
-      headlineFontSize: { xs: '2.5rem', md: '4rem' },
+      headlineFontSize: { xs: '3rem', md: '5rem' },
       descriptionFontSize: { xs: '1.25rem', md: '1.8rem' },
       spacing: 3, // mb: 3 = 24px
       maxWidth: { xs: '100%', md: '1600px' },
@@ -179,7 +179,7 @@ const theme = createTheme({
       lineHeight: 1.8,
       bodyFontSize: { xs: '1rem', md: '1.125rem' },
       bodyFontSizeSmall: { xs: '0.95rem', md: '1rem' },
-      sectionHeadingSize: { xs: '1.75rem', md: '2rem' },
+      sectionHeadingSize: { xs: '2.25rem', md: '3rem' },
       marginBottom: {
         small: 2,   // 16px
         medium: 3,  // 24px
@@ -196,7 +196,7 @@ const theme = createTheme({
       fontSize: '1rem',
     },
     fonts: {
-      handwriting: 'var(--font-micho-handwriting)',
+      handwriting: "'Micho Handwriting', cursive",
     },
   },
   shadows: [

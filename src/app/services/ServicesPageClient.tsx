@@ -203,6 +203,7 @@ export default function ServicesPageClient() {
                 mb: 3,
                 fontSize: { xs: '2.5rem', md: '3.5rem' },
                 fontWeight: 800,
+                fontFamily: (theme) => theme.custom.fonts.handwriting,
               }}
             >
               Our Services
@@ -261,6 +262,7 @@ export default function ServicesPageClient() {
                     mb: 2,
                     fontSize: { xs: '2rem', md: '2.5rem' },
                     fontWeight: 700,
+                    fontFamily: (theme) => theme.custom.fonts.handwriting,
                   }}
                 >
                   {service.icon} {service.title}
@@ -506,7 +508,7 @@ export default function ServicesPageClient() {
       >
         <Container maxWidth="xl">
           <Box component={motion.div} variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            <Typography variant="h2" sx={{ mb: 3, fontWeight: 800, color: 'white' }}>
+            <Typography variant="h2" sx={{ mb: 3, fontWeight: 800, color: 'white', fontFamily: (theme) => theme.custom.fonts.handwriting }}>
               Ready to Get Started?
             </Typography>
             <Typography variant="body1" sx={{ mb: 4, fontSize: '1.25rem', color: 'grey.300' }}>
