@@ -38,6 +38,9 @@ declare module '@mui/material/styles' {
         padding: { xs: number; md: number };
         fontSize: string;
       };
+      fonts: {
+        handwriting: string;
+      };
     };
   }
   interface ThemeOptions {
@@ -75,6 +78,9 @@ declare module '@mui/material/styles' {
       button?: {
         padding?: { xs: number; md: number };
         fontSize?: string;
+      };
+      fonts?: {
+        handwriting?: string;
       };
     };
   }
@@ -188,6 +194,9 @@ const theme = createTheme({
     button: {
       padding: { xs: 2, md: 3 }, // Consistent button padding
       fontSize: '1rem',
+    },
+    fonts: {
+      handwriting: 'var(--font-micho-handwriting)',
     },
   },
   shadows: [

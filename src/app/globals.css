@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+:root {
+  --font-micho-handwriting: var(--font-micho-handwriting);
+}
+
 html {
   scroll-behavior: smooth;
 }

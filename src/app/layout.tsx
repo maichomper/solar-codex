@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import SkipLinks from '@/components/common/SkipLinks';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { generateOrganizationSchema, generateWebSiteSchema } from '@/utils/schema';
+import { michoHandwriting } from '@/styles/fonts';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -69,7 +70,7 @@ export default function RootLayout({
   const webSiteSchema = generateWebSiteSchema();
 
   return (
-    <html lang="en">
+    <html lang="en" className={michoHandwriting.variable}>
       <head>
         <script
           type="application/ld+json"

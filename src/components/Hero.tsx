@@ -65,6 +65,7 @@ export default function Hero() {
                   sx={{
                     color: 'secondary.main',
                     position: 'relative',
+                    fontFamily: (theme) => theme.custom.fonts.handwriting,
                     '&::after': {
                       content: '""',
                       position: 'absolute',
