@@ -705,6 +705,7 @@ export default function CaseStudyPageClient() {
                           alt={image.alt}
                           width={800}
                           height={500}
+                          sizes="(max-width: 1200px) 100vw, 800px"
                           style={{ width: '100%', height: 'auto' }}
                         />
                       </Box>

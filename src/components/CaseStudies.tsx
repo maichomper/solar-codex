@@ -357,6 +357,7 @@ export default function CaseStudies() {
                         alt={`${study.title} - Project visual`}
                         width={600}
                         height={800}
+                        sizes="(max-width: 900px) 100vw, 600px"
                         style={{ width: '100%', height: 'auto' }}
                       />
                     </Box>
