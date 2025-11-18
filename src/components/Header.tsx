@@ -1,7 +1,7 @@
 'use client';
 
 import { AppBar, Toolbar, Box, Button, IconButton, Drawer, List, ListItem, ListItemButton, ListItemText, useTheme } from '@mui/material';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -20,10 +20,40 @@ export default function Header() {
   const [activeSection, setActiveSection] = useState('');
   const pathname = usePathname();
   const theme = useTheme();
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const drawerRef = useRef<HTMLDivElement>(null);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
+
+  // Handle Escape key to close drawer
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && mobileOpen) {
+        setMobileOpen(false);
+        menuButtonRef.current?.focus();
+      }
+    };
+
+    if (mobileOpen) {
+      document.addEventListener('keydown', handleEscape);
+      // Focus trap: focus first focusable element in drawer
+      const firstFocusable = drawerRef.current?.querySelector('a, button, [tabindex]:not([tabindex="-1"])') as HTMLElement;
+      firstFocusable?.focus();
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+    };
+  }, [mobileOpen]);
+
+  // Return focus to menu button when drawer closes
+  useEffect(() => {
+    if (!mobileOpen && menuButtonRef.current) {
+      menuButtonRef.current.focus();
+    }
+  }, [mobileOpen]);
 
   const handleNavClick = (href: string) => {
     setMobileOpen(false);
@@ -118,15 +148,18 @@ export default function Header() {
   };
 
   const drawer = (
-    <Box sx={{ width: 250 }}>
+    <Box sx={{ width: 250 }} ref={drawerRef} role="navigation" aria-label="Main navigation">
       <Box sx={{ display: 'flex', justifyContent: 'flex-end', p: 2 }}>
-        <IconButton onClick={handleDrawerToggle}>
+        <IconButton
+          onClick={handleDrawerToggle}
+          aria-label="Close navigation menu"
+        >
           <CloseIcon />
         </IconButton>
       </Box>
-      <List>
+      <List role="list">
         {navItems.map((item) => (
-          <ListItem key={item.label} disablePadding>
+          <ListItem key={item.label} disablePadding role="listitem">
             <ListItemButton onClick={() => handleNavClick(item.href)}>
               <ListItemText primary={item.label} />
             </ListItemButton>
@@ -173,8 +206,14 @@ export default function Header() {
         <Toolbar sx={{ justifyContent: 'space-between', py: 1 }}>
           {/* Logo */}
           <Box
-            sx={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
-            onClick={() => handleNavClick('/')}
+            component="a"
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              handleNavClick('/');
+            }}
+            sx={{ cursor: 'pointer', display: 'flex', alignItems: 'center', textDecoration: 'none' }}
+            aria-label="SolarCodex home"
           >
             <Image
               src="/solar-codex-logo.svg"
@@ -187,7 +226,12 @@ export default function Header() {
           </Box>
 
           {/* Desktop Navigation */}
-          <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 1, alignItems: 'center' }}>
+          <Box
+            component="nav"
+            id="navigation"
+            aria-label="Main navigation"
+            sx={{ display: { xs: 'none', md: 'flex' }, gap: 1, alignItems: 'center' }}
+          >
             {navItems.slice(1).map((item) => (
               <Button
                 key={item.label}
@@ -236,8 +280,11 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <IconButton
+            ref={menuButtonRef}
             color="inherit"
-            aria-label="open drawer"
+            aria-label="open navigation menu"
+            aria-expanded={mobileOpen}
+            aria-controls="mobile-navigation"
             edge="end"
             onClick={handleDrawerToggle}
             sx={{ display: { md: 'none' } }}
@@ -249,6 +296,7 @@ export default function Header() {
 
       {/* Mobile Drawer */}
       <Drawer
+        id="mobile-navigation"
         anchor="right"
         open={mobileOpen}
         onClose={handleDrawerToggle}

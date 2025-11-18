@@ -2,7 +2,7 @@
 
 import { Box, Container, Typography, Chip, IconButton } from '@mui/material';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import SectionHeading from './common/SectionHeading';
 import Button from './common/Button';
@@ -93,6 +93,36 @@ export default function CaseStudies() {
     setCurrentIndex((prev) => (prev - 1 + caseStudies.length) % caseStudies.length);
   };
 
+  // Keyboard navigation for carousel
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Only handle if focus is within the carousel section
+      const carouselSection = document.getElementById('case-studies');
+      if (!carouselSection?.contains(document.activeElement)) {
+        return;
+      }
+
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        handlePrev();
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        handleNext();
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        setDirection(-1);
+        setCurrentIndex(0);
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        setDirection(1);
+        setCurrentIndex(caseStudies.length - 1);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIndex, caseStudies.length]);
+
   const study = caseStudies[currentIndex];
 
   const slideVariants = {
@@ -131,6 +161,8 @@ export default function CaseStudies() {
         <Box sx={{ position: 'relative', overflow: 'hidden', py: 4 }}>
           {/* Navigation Arrows - Moved to Top */}
           <Box
+            role="group"
+            aria-label="Case study carousel controls"
             sx={{
               display: 'flex',
               justifyContent: 'center',
@@ -141,6 +173,7 @@ export default function CaseStudies() {
           >
             <IconButton
               onClick={handlePrev}
+              aria-label="Previous case study"
               sx={{
                 backgroundColor: 'primary.main',
                 color: 'white',
@@ -154,12 +187,19 @@ export default function CaseStudies() {
               <ArrowBackIcon />
             </IconButton>
 
-            <Typography variant="body2" sx={{ fontWeight: 600, minWidth: 80, textAlign: 'center' }}>
+            <Typography
+              variant="body2"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+              sx={{ fontWeight: 600, minWidth: 80, textAlign: 'center' }}
+            >
               {currentIndex + 1} / {caseStudies.length}
             </Typography>
 
             <IconButton
               onClick={handleNext}
+              aria-label="Next case study"
               sx={{
                 backgroundColor: 'primary.main',
                 color: 'white',
@@ -174,19 +214,20 @@ export default function CaseStudies() {
             </IconButton>
           </Box>
 
-          <AnimatePresence initial={false} custom={direction} mode="wait">
-            <motion.div
-              key={currentIndex}
-              custom={direction}
-              variants={slideVariants}
-              initial="enter"
-              animate="center"
-              exit="exit"
-              transition={{
-                x: { type: 'spring', stiffness: 300, damping: 30 },
-                opacity: { duration: 0.2 },
-              }}
-            >
+          <div role="region" aria-live="polite" aria-label={`Case study ${currentIndex + 1} of ${caseStudies.length}: ${study.title}`}>
+            <AnimatePresence initial={false} custom={direction} mode="wait">
+              <motion.div
+                key={currentIndex}
+                custom={direction}
+                variants={slideVariants}
+                initial="enter"
+                animate="center"
+                exit="exit"
+                transition={{
+                  x: { type: 'spring', stiffness: 300, damping: 30 },
+                  opacity: { duration: 0.2 },
+                }}
+              >
               <Box
                 sx={{
                   display: 'flex',
@@ -350,6 +391,7 @@ export default function CaseStudies() {
               </Box>
             </motion.div>
           </AnimatePresence>
+          </div>
         </Box>
       </Container>
     </Box>

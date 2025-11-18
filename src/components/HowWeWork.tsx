@@ -111,9 +111,17 @@ export default function HowWeWork() {
             whileInView="visible"
             viewport={{ once: true, margin: '-100px' }}
           >
-            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3 }}>
+            <Box
+              role="list"
+              aria-label="The SolarCodex Method phases"
+              sx={{ display: 'flex', flexWrap: 'wrap', gap: 3 }}
+            >
               {phases.map((phase, index) => (
-                <Box sx={{ flex: { xs: '1 1 100%', sm: '1 1 calc(50% - 12px)', md: '1 1 calc(33.333% - 12px)' } }} key={index}>
+                <Box
+                  role="listitem"
+                  sx={{ flex: { xs: '1 1 100%', sm: '1 1 calc(50% - 12px)', md: '1 1 calc(33.333% - 12px)' } }}
+                  key={index}
+                >
                   <Box
                     component={motion.div}
                     variants={fadeInUp}
@@ -202,6 +210,8 @@ export default function HowWeWork() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-100px' }}
+            role="list"
+            aria-label="Our toolkit frameworks"
             sx={{
               display: 'flex',
               flexWrap: 'wrap',
@@ -248,9 +258,17 @@ export default function HowWeWork() {
             whileInView="visible"
             viewport={{ once: true, margin: '-100px' }}
           >
-            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+            <Box
+              role="list"
+              aria-label="What makes us different"
+              sx={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}
+            >
               {differentiators.map((item, index) => (
-                <Box sx={{ flex: { xs: '1 1 100%', sm: '1 1 calc(50% - 16px)' } }} key={index}>
+                <Box
+                  role="listitem"
+                  sx={{ flex: { xs: '1 1 100%', sm: '1 1 calc(50% - 16px)' } }}
+                  key={index}
+                >
                   <Box
                     component={motion.div}
                     variants={fadeInUp}

@@ -1,6 +1,6 @@
 {
   "name": "the-solar-codex",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A minimalistic, visually-driven one-page website for SolarCodex - an AI development and strategic product consulting business that bridges technology and business strategy through visual thinking.",
   "main": "index.js",
   "scripts": {

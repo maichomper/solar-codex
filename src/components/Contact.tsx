@@ -4,7 +4,13 @@ import { Box, Container, Typography, TextField } from '@mui/material';
 import { motion } from 'framer-motion';
 import Button from './common/Button';
 import { fadeInUp, staggerContainer } from '@/utils/animations';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+
+interface FormErrors {
+  name?: string;
+  email?: string;
+  message?: string;
+}
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -13,20 +19,75 @@ export default function Contact() {
     company: '',
     message: '',
   });
+  const [errors, setErrors] = useState<FormErrors>({});
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const nameInputRef = useRef<HTMLInputElement>(null);
+  const emailInputRef = useRef<HTMLInputElement>(null);
+  const messageInputRef = useRef<HTMLTextAreaElement>(null);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+  const validateForm = (): boolean => {
+    const newErrors: FormErrors = {};
+    
+    if (!formData.name.trim()) {
+      newErrors.name = 'Name is required';
+    }
+    
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email is required';
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = 'Please enter a valid email address';
+    }
+    
+    if (!formData.message.trim()) {
+      newErrors.message = 'Message is required';
+    }
+    
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+    // Clear error when user starts typing
+    if (errors[name as keyof FormErrors]) {
+      setErrors({
+        ...errors,
+        [name]: undefined,
+      });
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (!validateForm()) {
+      // Focus first error field after state update
+      setTimeout(() => {
+        if (errors.name && nameInputRef.current) {
+          nameInputRef.current.focus();
+        } else if (errors.email && emailInputRef.current) {
+          emailInputRef.current.focus();
+        } else if (errors.message && messageInputRef.current) {
+          messageInputRef.current.focus();
+        }
+      }, 0);
+      return;
+    }
+    
+    setIsSubmitting(true);
     // TODO: Implement form submission logic (e.g., serverless function, third-party service)
     console.log('Form submitted:', formData);
-    setSubmitted(true);
+    
+    // Simulate API call
+    setTimeout(() => {
+      setSubmitted(true);
+      setIsSubmitting(false);
+    }, 500);
   };
 
   return (
@@ -159,9 +220,15 @@ export default function Contact() {
                 }}
               >
                 {!submitted ? (
-                  <Box component="form" onSubmit={handleSubmit}>
+                  <Box
+                    component="form"
+                    onSubmit={handleSubmit}
+                    aria-label="Contact form"
+                    noValidate
+                  >
                     <Typography
                       variant="h5"
+                      component="h3"
                       sx={{
                         mb: 3,
                         fontWeight: 700,
@@ -172,7 +239,12 @@ export default function Contact() {
                       Or Send Us a Message 💬
                     </Typography>
 
+                    <div role="status" aria-live="polite" aria-atomic="true" style={{ position: 'absolute', left: '-10000px', width: '1px', height: '1px', overflow: 'hidden' }}>
+                      {Object.keys(errors).length > 0 && 'Please fix the errors in the form'}
+                    </div>
+
                     <TextField
+                      inputRef={nameInputRef}
                       fullWidth
                       required
                       name="name"
@@ -180,6 +252,11 @@ export default function Contact() {
                       variant="outlined"
                       value={formData.name}
                       onChange={handleChange}
+                      error={!!errors.name}
+                      helperText={errors.name}
+                      aria-required="true"
+                      aria-invalid={!!errors.name}
+                      aria-describedby={errors.name ? 'name-error' : undefined}
                       sx={{
                         mb: 2,
                         '& .MuiOutlinedInput-root': {
@@ -187,8 +264,19 @@ export default function Contact() {
                         },
                       }}
                     />
+                    {errors.name && (
+                      <Typography
+                        id="name-error"
+                        role="alert"
+                        variant="caption"
+                        sx={{ color: 'error.main', mb: 1, display: 'block' }}
+                      >
+                        {errors.name}
+                      </Typography>
+                    )}
 
                     <TextField
+                      inputRef={emailInputRef}
                       fullWidth
                       required
                       name="email"
@@ -197,6 +285,11 @@ export default function Contact() {
                       variant="outlined"
                       value={formData.email}
                       onChange={handleChange}
+                      error={!!errors.email}
+                      helperText={errors.email}
+                      aria-required="true"
+                      aria-invalid={!!errors.email}
+                      aria-describedby={errors.email ? 'email-error' : undefined}
                       sx={{
                         mb: 2,
                         '& .MuiOutlinedInput-root': {
@@ -204,6 +297,16 @@ export default function Contact() {
                         },
                       }}
                     />
+                    {errors.email && (
+                      <Typography
+                        id="email-error"
+                        role="alert"
+                        variant="caption"
+                        sx={{ color: 'error.main', mb: 1, display: 'block' }}
+                      >
+                        {errors.email}
+                      </Typography>
+                    )}
 
                     <TextField
                       fullWidth
@@ -221,6 +324,7 @@ export default function Contact() {
                     />
 
                     <TextField
+                      inputRef={messageInputRef}
                       fullWidth
                       required
                       name="message"
@@ -230,6 +334,11 @@ export default function Contact() {
                       rows={4}
                       value={formData.message}
                       onChange={handleChange}
+                      error={!!errors.message}
+                      helperText={errors.message}
+                      aria-required="true"
+                      aria-invalid={!!errors.message}
+                      aria-describedby={errors.message ? 'message-error' : undefined}
                       sx={{
                         mb: 3,
                         '& .MuiOutlinedInput-root': {
@@ -237,6 +346,16 @@ export default function Contact() {
                         },
                       }}
                     />
+                    {errors.message && (
+                      <Typography
+                        id="message-error"
+                        role="alert"
+                        variant="caption"
+                        sx={{ color: 'error.main', mb: 1, display: 'block' }}
+                      >
+                        {errors.message}
+                      </Typography>
+                    )}
 
                     <Button
                       type="submit"
@@ -244,12 +363,17 @@ export default function Contact() {
                       color="secondary"
                       fullWidth
                       size="large"
+                      disabled={isSubmitting}
+                      aria-busy={isSubmitting}
                     >
-                      Send Message ✉️
+                      {isSubmitting ? 'Sending...' : 'Send Message ✉️'}
                     </Button>
                   </Box>
                 ) : (
                   <Box
+                    role="status"
+                    aria-live="polite"
+                    aria-atomic="true"
                     sx={{
                       display: 'flex',
                       flexDirection: 'column',
@@ -260,6 +384,7 @@ export default function Contact() {
                   >
                     <Typography
                       variant="h4"
+                      component="h3"
                       sx={{
                         mb: 2,
                         fontWeight: 700,
@@ -286,7 +411,8 @@ export default function Contact() {
 
           {/* Footer */}
           <Box
-            component={motion.div}
+            component={motion.footer}
+            role="contentinfo"
             variants={fadeInUp}
             sx={{
               mt: 8,

@@ -62,9 +62,17 @@ export default function Services() {
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
         >
-          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+          <Box
+            role="list"
+            aria-label="Our services"
+            sx={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}
+          >
             {services.map((service, index) => (
-              <Box sx={{ flex: { xs: '1 1 100%', md: '1 1 calc(50% - 16px)' } }} key={index}>
+              <Box
+                role="listitem"
+                sx={{ flex: { xs: '1 1 100%', md: '1 1 calc(50% - 16px)' } }}
+                key={index}
+              >
                 <Box component={motion.div} variants={fadeInUp}>
                   <ServiceCard
                     icon={service.icon}
