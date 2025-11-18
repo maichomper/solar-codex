@@ -284,7 +284,11 @@ export default function CaseStudies() {
                     <Button
                       variant="contained"
                       color="secondary"
-                      onClick={() => window.location.href = study.detailsUrl}
+                      onClick={() => {
+                        if (study.detailsUrl) {
+                          window.location.href = study.detailsUrl;
+                        }
+                      }}
                       sx={{ mt: 1 }}
                     >
                       View Full Case Study →

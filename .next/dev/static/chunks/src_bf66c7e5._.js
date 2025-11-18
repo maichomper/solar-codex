@@ -364,12 +364,12 @@ function TherapyManagementCaseStudy() {
                             priority: true
                         }, void 0, false, {
                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                            lineNumber: 249,
+                            lineNumber: 257,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                        lineNumber: 236,
+                        lineNumber: 244,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Container$2f$Container$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
@@ -435,7 +435,7 @@ function TherapyManagementCaseStudy() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                    lineNumber: 276,
+                                    lineNumber: 284,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -466,7 +466,7 @@ function TherapyManagementCaseStudy() {
                                                             children: "Client:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 284,
+                                                            lineNumber: 292,
                                                             columnNumber: 19
                                                         }, this),
                                                         " ",
@@ -474,7 +474,7 @@ function TherapyManagementCaseStudy() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 283,
+                                                    lineNumber: 291,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -489,7 +489,7 @@ function TherapyManagementCaseStudy() {
                                                             children: "Duration:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 287,
+                                                            lineNumber: 295,
                                                             columnNumber: 19
                                                         }, this),
                                                         " ",
@@ -497,7 +497,7 @@ function TherapyManagementCaseStudy() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 286,
+                                                    lineNumber: 294,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -511,7 +511,7 @@ function TherapyManagementCaseStudy() {
                                                             children: "Role:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 290,
+                                                            lineNumber: 298,
                                                             columnNumber: 19
                                                         }, this),
                                                         " ",
@@ -519,13 +519,13 @@ function TherapyManagementCaseStudy() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 289,
+                                                    lineNumber: 297,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 282,
+                                            lineNumber: 290,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -542,7 +542,7 @@ function TherapyManagementCaseStudy() {
                                                     children: "Tools Used:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 296,
+                                                    lineNumber: 304,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -560,12 +560,12 @@ function TherapyManagementCaseStudy() {
                                                             }
                                                         }, i, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 301,
+                                                            lineNumber: 309,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 299,
+                                                    lineNumber: 307,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -577,7 +577,7 @@ function TherapyManagementCaseStudy() {
                                                     children: "Processes:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 311,
+                                                    lineNumber: 319,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -596,41 +596,41 @@ function TherapyManagementCaseStudy() {
                                                             }
                                                         }, i, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 316,
+                                                            lineNumber: 324,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 314,
+                                                    lineNumber: 322,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 294,
+                                            lineNumber: 302,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                    lineNumber: 281,
+                                    lineNumber: 289,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                            lineNumber: 259,
+                            lineNumber: 267,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                        lineNumber: 258,
+                        lineNumber: 266,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                lineNumber: 225,
+                lineNumber: 233,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Container$2f$Container$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
@@ -649,7 +649,7 @@ function TherapyManagementCaseStudy() {
                         children: "Project Journey"
                     }, void 0, false, {
                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                        lineNumber: 336,
+                        lineNumber: 344,
                         columnNumber: 9
                     }, this),
                     caseStudy.phases.map((phase, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -701,12 +701,12 @@ function TherapyManagementCaseStudy() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                lineNumber: 376,
+                                                lineNumber: 384,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 364,
+                                            lineNumber: 372,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -721,13 +721,13 @@ function TherapyManagementCaseStudy() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 379,
+                                            lineNumber: 387,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                    lineNumber: 362,
+                                    lineNumber: 370,
                                     columnNumber: 13
                                 }, this),
                                 phase.layout === 'side-by-side' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -761,7 +761,7 @@ function TherapyManagementCaseStudy() {
                                                     children: phase.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 389,
+                                                    lineNumber: 397,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -779,7 +779,7 @@ function TherapyManagementCaseStudy() {
                                                             children: "Key Outcomes:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 401,
+                                                            lineNumber: 409,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -798,24 +798,24 @@ function TherapyManagementCaseStudy() {
                                                                     children: outcome
                                                                 }, i, false, {
                                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                                    lineNumber: 406,
+                                                                    lineNumber: 414,
                                                                     columnNumber: 25
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 404,
+                                                            lineNumber: 412,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 400,
+                                                    lineNumber: 408,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 388,
+                                            lineNumber: 396,
                                             columnNumber: 17
                                         }, this),
                                         phase.images && phase.images[0] && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -847,12 +847,12 @@ function TherapyManagementCaseStudy() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                        lineNumber: 433,
+                                                        lineNumber: 441,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 422,
+                                                    lineNumber: 430,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -867,19 +867,19 @@ function TherapyManagementCaseStudy() {
                                                     children: phase.images[0].caption
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 441,
+                                                    lineNumber: 449,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 421,
+                                            lineNumber: 429,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                    lineNumber: 386,
+                                    lineNumber: 394,
                                     columnNumber: 15
                                 }, this) : phase.layout === 'half-and-half' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                     sx: {
@@ -912,7 +912,7 @@ function TherapyManagementCaseStudy() {
                                                     children: phase.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 460,
+                                                    lineNumber: 468,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -930,7 +930,7 @@ function TherapyManagementCaseStudy() {
                                                             children: "Key Outcomes:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 472,
+                                                            lineNumber: 480,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -949,24 +949,24 @@ function TherapyManagementCaseStudy() {
                                                                     children: outcome
                                                                 }, i, false, {
                                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                                    lineNumber: 477,
+                                                                    lineNumber: 485,
                                                                     columnNumber: 25
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 475,
+                                                            lineNumber: 483,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 471,
+                                                    lineNumber: 479,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 459,
+                                            lineNumber: 467,
                                             columnNumber: 17
                                         }, this),
                                         phase.images && phase.images[0] && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -995,12 +995,12 @@ function TherapyManagementCaseStudy() {
                                                         allowFullScreen: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                        lineNumber: 503,
+                                                        lineNumber: 511,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 494,
+                                                    lineNumber: 502,
                                                     columnNumber: 23
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                     sx: {
@@ -1023,12 +1023,12 @@ function TherapyManagementCaseStudy() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                        lineNumber: 523,
+                                                        lineNumber: 531,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 512,
+                                                    lineNumber: 520,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1043,19 +1043,19 @@ function TherapyManagementCaseStudy() {
                                                     children: phase.images[0].caption
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 532,
+                                                    lineNumber: 540,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 492,
+                                            lineNumber: 500,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                    lineNumber: 457,
+                                    lineNumber: 465,
                                     columnNumber: 15
                                 }, this) : phase.layout === 'two-column-images' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                     children: [
@@ -1072,7 +1072,7 @@ function TherapyManagementCaseStudy() {
                                             children: phase.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 550,
+                                            lineNumber: 558,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1093,7 +1093,7 @@ function TherapyManagementCaseStudy() {
                                                     children: "Key Outcomes:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 564,
+                                                    lineNumber: 572,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1112,18 +1112,18 @@ function TherapyManagementCaseStudy() {
                                                             children: outcome
                                                         }, i, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 569,
+                                                            lineNumber: 577,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 567,
+                                                    lineNumber: 575,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 563,
+                                            lineNumber: 571,
                                             columnNumber: 17
                                         }, this),
                                         phase.images && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1168,12 +1168,12 @@ function TherapyManagementCaseStudy() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                                lineNumber: 598,
+                                                                lineNumber: 606,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 586,
+                                                            lineNumber: 594,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1187,18 +1187,18 @@ function TherapyManagementCaseStudy() {
                                                             children: image.caption
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 606,
+                                                            lineNumber: 614,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, i, true, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 585,
+                                                    lineNumber: 593,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 583,
+                                            lineNumber: 591,
                                             columnNumber: 19
                                         }, this)
                                     ]
@@ -1217,7 +1217,7 @@ function TherapyManagementCaseStudy() {
                                             children: phase.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 625,
+                                            lineNumber: 633,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1238,7 +1238,7 @@ function TherapyManagementCaseStudy() {
                                                     children: "Key Outcomes:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 639,
+                                                    lineNumber: 647,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1257,18 +1257,18 @@ function TherapyManagementCaseStudy() {
                                                             children: outcome
                                                         }, i, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 644,
+                                                            lineNumber: 652,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                    lineNumber: 642,
+                                                    lineNumber: 650,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                            lineNumber: 638,
+                                            lineNumber: 646,
                                             columnNumber: 17
                                         }, this),
                                         phase.images && phase.images.map((image, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1298,12 +1298,12 @@ function TherapyManagementCaseStudy() {
                                                             allowFullScreen: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 670,
+                                                            lineNumber: 678,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                        lineNumber: 661,
+                                                        lineNumber: 669,
                                                         columnNumber: 19
                                                     }, this) : // Regular image
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1328,12 +1328,12 @@ function TherapyManagementCaseStudy() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                            lineNumber: 692,
+                                                            lineNumber: 700,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                        lineNumber: 680,
+                                                        lineNumber: 688,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1347,13 +1347,13 @@ function TherapyManagementCaseStudy() {
                                                         children: image.caption
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                        lineNumber: 701,
+                                                        lineNumber: 709,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, i, true, {
                                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                lineNumber: 658,
+                                                lineNumber: 666,
                                                 columnNumber: 19
                                             }, this))
                                     ]
@@ -1367,13 +1367,13 @@ function TherapyManagementCaseStudy() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                    lineNumber: 719,
+                                    lineNumber: 727,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, phase.number, true, {
                             fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                            lineNumber: 349,
+                            lineNumber: 357,
                             columnNumber: 11
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1406,7 +1406,7 @@ function TherapyManagementCaseStudy() {
                                 children: caseStudy.impact.title
                             }, void 0, false, {
                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                lineNumber: 745,
+                                lineNumber: 753,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1439,7 +1439,7 @@ function TherapyManagementCaseStudy() {
                                                 children: metric.value
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                lineNumber: 759,
+                                                lineNumber: 767,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1451,7 +1451,7 @@ function TherapyManagementCaseStudy() {
                                                 children: metric.label
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                lineNumber: 770,
+                                                lineNumber: 778,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1462,24 +1462,24 @@ function TherapyManagementCaseStudy() {
                                                 children: metric.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                                lineNumber: 773,
+                                                lineNumber: 781,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, i, true, {
                                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                        lineNumber: 758,
+                                        lineNumber: 766,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                lineNumber: 749,
+                                lineNumber: 757,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                        lineNumber: 732,
+                        lineNumber: 740,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1497,7 +1497,7 @@ function TherapyManagementCaseStudy() {
                                 children: "Ready to transform your product idea?"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                lineNumber: 783,
+                                lineNumber: 791,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1507,25 +1507,25 @@ function TherapyManagementCaseStudy() {
                                 children: "Start Your Discovery 🚀"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                                lineNumber: 786,
+                                lineNumber: 794,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                        lineNumber: 782,
+                        lineNumber: 790,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-                lineNumber: 335,
+                lineNumber: 343,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/case-studies/therapy-management-system/page.tsx",
-        lineNumber: 223,
+        lineNumber: 231,
         columnNumber: 5
     }, this);
 }

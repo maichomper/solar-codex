@@ -15,6 +15,14 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import RouteIcon from '@mui/icons-material/Route';
 import ScreenshotMonitorIcon from '@mui/icons-material/ScreenshotMonitor';
 
+// Type definitions
+interface PhaseImage {
+  src: string;
+  alt: string;
+  caption: string;
+  figjamEmbed?: string;
+}
+
 // Case study data structure
 const caseStudy = {
   title: 'Therapy Management System',
@@ -55,7 +63,7 @@ const caseStudy = {
           alt: 'Hand-drawn process sketch from discovery call',
           caption: 'Real-time sketch created during discovery call showing current workflow',
         },
-      ],
+      ] as PhaseImage[],
     },
     {
       number: 2,
@@ -85,7 +93,7 @@ const caseStudy = {
           caption: 'Complete user journey from first contact through 6 therapy sessions',
           figjamEmbed: 'https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/board/HkfSpDm8dEhRthSaETJqJ3/User-Journeys?node-id=2002-1227',
         },
-      ],
+      ] as PhaseImage[],
     },
     {
       number: 4,
@@ -105,7 +113,7 @@ const caseStudy = {
           caption: 'Collaborative FigJam session with founder feedback',
           figjamEmbed: 'https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/board/VuPvSrzwg6jWTyJbjVB5Cx/La-Monta%C3%B1a-Sketch?node-id=2708-1474',
         },
-      ],
+      ] as PhaseImage[],
     },
     {
       number: 5,
@@ -124,7 +132,7 @@ const caseStudy = {
           caption: 'Business Model Canvas defining the strategic foundation',
           figjamEmbed: 'https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/board/gWnLYrPZfm8dm2KebpSxLL/Business-Model-Canvas?node-id=1-357',
         },
-      ],
+      ] as PhaseImage[],
     },
     {
       number: 6,
@@ -142,7 +150,7 @@ const caseStudy = {
           alt: 'Customer personas',
           caption: 'Therapist, Client, and Practice Manager personas',
         },
-      ],
+      ] as PhaseImage[],
     },
     {
       number: 7,
@@ -160,7 +168,7 @@ const caseStudy = {
           alt: 'Product team structure',
           caption: 'Ideal product team structure and hiring roadmap',
         },
-      ],
+      ] as PhaseImage[],
     },
     {
       number: 8,
@@ -179,7 +187,7 @@ const caseStudy = {
           caption: 'User journey maps showing therapist and client experiences',
           figjamEmbed: 'https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/board/HkfSpDm8dEhRthSaETJqJ3/User-Journeys?node-id=863-1035',
         },
-      ],
+      ] as PhaseImage[],
     },
     {
       number: 9,
@@ -203,7 +211,7 @@ const caseStudy = {
           alt: 'Patient List',
           caption: 'Patient management interface with streamlined booking flow',
         },
-      ],
+      ] as PhaseImage[],
     },
   ],
 

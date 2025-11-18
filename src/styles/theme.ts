@@ -25,6 +25,7 @@ declare module '@mui/material/styles' {
       text: {
         lineHeight: number;
         bodyFontSize: { xs: string; md: string };
+        bodyFontSizeSmall: { xs: string; md: string };
         sectionHeadingSize: { xs: string; md: string };
         marginBottom: { small: number; medium: number; large: number };
       };
